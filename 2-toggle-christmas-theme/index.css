@@ -33,8 +33,18 @@ body {
   border-radius: 10px;
   padding: 3em;
   min-width: 350px;
+  max-width: 400px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.christmas-container {
+  width: 100%;
+  text-align: center;
+}
+
+.tree {
+  width: 70%;
 }
 
 h1 {
@@ -44,8 +54,8 @@ h1 {
 
 p {
   font-size: 45px;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .radio-container {
@@ -93,7 +103,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--wine-red);
+  background-color: var(--bright-red);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
