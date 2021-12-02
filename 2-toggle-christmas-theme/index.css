@@ -24,9 +24,12 @@ body,
 body {
   background-color: var(--wine-red);
   height: 100vh;
+  transition: background-image 0.5s;
 }
 
 .container {
+  font-family: "Mountains of Christmas", cursive;
+  color: var(--dark-green);
   background: var(--snow);
   background-image: url("img/trees.png");
   flex-direction: column;
@@ -34,7 +37,7 @@ body {
   padding: 3em;
   min-width: 350px;
   max-width: 400px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
@@ -64,22 +67,13 @@ p {
 }
 
 .christmas {
-  font-family: "Mountains of Christmas", cursive;
-  color: var(--dark-green);
-  background-color: var(--wine-red);
+  background-color: var(--bright-red);
   background-image: url("img/christmas-dark.png");
 }
 
 .snow {
-  font-family: "Lobster Two", cursive;
-  color: var(--snow);
   background-color: var(--snow);
   background-image: url("img/blue-snow.png");
-}
-
-.snow .container {
-  color: #f0f4f7;
-  background-color: var(--dark-green);
 }
 
 /* Switch */
