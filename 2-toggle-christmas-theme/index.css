@@ -1,0 +1,129 @@
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --snow-blue: #86c2f3;
+  --gold: #fac57d;
+  --snow: #f0f4f7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: var(--wine-red);
+  height: 100vh;
+  transition: background-image 0.5s;
+}
+
+.container {
+  font-family: "Mountains of Christmas", cursive;
+  color: var(--dark-green);
+  background: var(--snow);
+  background-image: url("img/trees.png");
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 3em;
+  min-width: 350px;
+  max-width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.christmas-container {
+  width: 100%;
+  text-align: center;
+}
+
+.tree {
+  width: 60%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 45px;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.radio-container {
+  width: 200px;
+  font-size: 22px;
+}
+
+.christmas {
+  background-color: var(--bright-red);
+  background-image: url("img/christmas-dark.png");
+}
+
+.snow {
+  background-color: var(--snow);
+  background-image: url("img/blue-snow.png");
+}
+
+/* Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bright-red);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: var(--snow-blue);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--snow-blue);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
