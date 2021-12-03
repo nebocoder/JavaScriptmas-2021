@@ -18,6 +18,7 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 1s;
 }
 
 body {
@@ -54,7 +55,11 @@ button:hover {
   background-color: var(--dark-green);
 }
 
-.hidden {
+/* Snow animation credits: */
+/* Author: codeconvey  */
+/* Link: https://codepen.io/codeconvey/pen/xRzQay */
+
+.snowflakes {
   display: none;
 }
 

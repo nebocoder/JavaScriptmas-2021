@@ -2,13 +2,14 @@ const greeting = document.getElementById("greeting")
 const btn = document.getElementById("btn")
 const container = document.querySelector(".container")
 const body = document.querySelector("body")
-const hidden = document.querySelector(".hidden")
+const snowflakes = document.querySelector(".snowflakes")
+const elves = document.getElementById("elves")
 
 function fix() {
   // Task:
   // - Write a function to fix the UI problems with this Christmas message (make it Christmassy!)
   // - Run the function when the Fix button is clicked.
-  hidden.style.display = "block"
+  snowflakes.style.display = "block"
   container.style.fontFamily = "Mountains of Christmas"
   container.style.background = 'url("img/trees.png")'
   greeting.textContent = "🎅 Merry Christmas! 🎄"
