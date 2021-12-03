@@ -12,7 +12,7 @@ function fix() {
   container.style.fontFamily = "Mountains of Christmas"
   container.style.background = 'url("img/trees.png")'
   greeting.textContent = "🎅 Merry Christmas! 🎄"
-  body.style.background = 'url("img/christmas-dark.png")'
+  body.style.background = 'url("img/bg.jpg") no-repeat center/cover'
 }
 
 btn.addEventListener("click", fix)
