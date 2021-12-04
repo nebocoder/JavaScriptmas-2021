@@ -22,7 +22,7 @@ if (storedItems) {
 }
 
 function render() {
-  elementList = ""
+  elementList = `<h2 id="list-title">Shopping List:</h2>`
   items.forEach((item) => {
     elementList += `<div class="checklist-item">
               <input type="checkbox" name="item" />
@@ -42,5 +42,5 @@ addBtn.addEventListener("click", () => {
 deleteAllBtn.addEventListener("click", () => {
   localStorage.clear()
   items = []
-  checklist.innerHTML = ""
+  checklist.innerHTML = `<h2 id="list-title">Shopping List:</h2>`
 })
