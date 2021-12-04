@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: var(--bright-red);
-  padding: 2em;
+  padding: 0.7em 2em 2em;
   border-radius: 1rem;
   box-shadow: 0 0 5px rgb(88, 88, 88);
 }
@@ -47,7 +47,6 @@ body {
 
 #add-input {
   background-color: var(--snow);
-  width: 100%;
   padding: 0.7em 1em;
   border-radius: 1rem;
   border: none;
@@ -93,11 +92,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-width: 390px;
+  min-width: 87%;
   min-height: 37px;
-  max-width: 5ch;
   background: var(--snow);
-  padding: 0.5em 1em;
+  padding: 1.2em 2em;
   margin: 0;
   border-radius: 1em;
   /* border: 2px solid var(--dark-green); */
