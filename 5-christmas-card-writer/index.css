@@ -27,13 +27,12 @@ body {
 .card {
   width: 300px;
   height: 300px;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   background: var(--snow);
   font-size: 35px;
   text-align: center;
   padding: 0.5em;
   position: relative;
-  margin-bottom: 1em;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
@@ -56,4 +55,20 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+#name {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  width: 335px;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+#name:focus {
+  outline: none;
+}
+
+#name-display {
+  margin-top: 8.2rem;
 }

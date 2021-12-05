@@ -1,6 +1,7 @@
 const greetingDisplay = document.getElementById("greeting-display")
+const nameDisplay = document.getElementById("name-display")
 const btn = document.getElementById("btn")
-const bauble = document.getElementById("bauble")
+const senderName = document.getElementById("name")
 
 btn.addEventListener("click", writeGreeting)
 
@@ -23,4 +24,8 @@ function writeGreeting() {
   const randomCard = Math.floor(Math.random() * greetings.length)
 
   greetingDisplay.textContent = `${greetings[randomCard]}`
+
+  if (senderName.value) {
+    nameDisplay.textContent = `-${senderName.value}`
+  }
 }
