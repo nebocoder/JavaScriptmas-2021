@@ -1,6 +1,7 @@
 const greetingDisplay = document.getElementById("greeting-display")
 const btn = document.getElementById("btn")
 const bauble = document.getElementById("bauble")
+
 btn.addEventListener("click", writeGreeting)
 
 const greetings = [
@@ -17,3 +18,9 @@ const greetings = [
 // Stretch goals:
 // - Allow the user to input to and from names.
 // - Add an input for custom messages.
+
+function writeGreeting() {
+  const randomCard = Math.floor(Math.random() * greetings.length)
+
+  greetingDisplay.textContent = `${greetings[randomCard]}`
+}
