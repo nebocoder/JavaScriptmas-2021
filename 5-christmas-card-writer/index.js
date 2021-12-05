@@ -28,5 +28,7 @@ function writeGreeting() {
 
   if (senderName.value) {
     nameDisplay.textContent = `-${senderName.value}`
+  } else {
+    nameDisplay.textContent = ""
   }
 }
