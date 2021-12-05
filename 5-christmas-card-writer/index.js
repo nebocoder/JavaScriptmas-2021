@@ -2,6 +2,7 @@ const greetingDisplay = document.getElementById("greeting-display")
 const nameDisplay = document.getElementById("name-display")
 const btn = document.getElementById("btn")
 const senderName = document.getElementById("name")
+let randomCard = 0
 
 btn.addEventListener("click", writeGreeting)
 
@@ -21,9 +22,12 @@ const greetings = [
 // - Add an input for custom messages.
 
 function writeGreeting() {
-  const randomCard = Math.floor(Math.random() * greetings.length)
+  do {
+    randomCard = Math.floor(Math.random() * greetings.length)
+  } while (greetingDisplay.textContent === greetings[randomCard])
 
-  greetingDisplay.textContent = `${greetings[randomCard]}`
+  greetingDisplay.textContent = greetings[randomCard]
+
   greetingDisplay.classList.add("wiggle")
 
   if (senderName.value) {
