@@ -1,0 +1,86 @@
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --gold: #fac57d;
+  --snow: #f0f4f7;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: var(--wine-red);
+  background: url("../img/christmas-dark.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caveat", cursive;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 0.5rem;
+  background-color: var(--snow);
+  background: url("../img/blue-snow.png");
+  font-size: 35px;
+  text-align: center;
+  padding: 0.5em;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+p {
+  font-weight: 700;
+}
+
+#greeting-display {
+  margin-top: 7rem;
+}
+
+button {
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: none;
+  background-color: var(--light-green);
+  color: var(--snow);
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+  border: 3px solid var(--gold);
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--dark-green);
+}
+
+#name {
+  font-weight: bold;
+  background-color: var(--snow);
+  background: url("../img/blue-snow.png");
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+#name:focus {
+  outline: none;
+}
+
+#name-display {
+  margin: 2rem 2rem 0;
+  text-align: right;
+}
