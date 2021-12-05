@@ -24,6 +24,7 @@ function writeGreeting() {
   const randomCard = Math.floor(Math.random() * greetings.length)
 
   greetingDisplay.textContent = `${greetings[randomCard]}`
+  greetingDisplay.classList.add("wiggle")
 
   if (senderName.value) {
     nameDisplay.textContent = `-${senderName.value}`

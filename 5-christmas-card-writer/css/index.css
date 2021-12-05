@@ -16,7 +16,7 @@ body {
 
 body {
   background-color: var(--wine-red);
-  background: url("img/christmas-dark.png");
+  background: url("../img/christmas-dark.png");
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ body {
   height: 300px;
   border-radius: 0.5rem;
   background-color: var(--snow);
-  background: url("img/blue-snow.png");
+  background: url("../img/blue-snow.png");
   font-size: 35px;
   text-align: center;
   padding: 0.5em;
@@ -40,11 +40,11 @@ body {
 }
 
 p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
   font-weight: 700;
-  transform: translate(-50%, -50%);
+}
+
+#greeting-display {
+  margin-top: 7rem;
 }
 
 button {
@@ -67,7 +67,7 @@ button:hover {
 #name {
   font-weight: bold;
   background-color: var(--snow);
-  background: url("img/blue-snow.png");
+  background: url("../img/blue-snow.png");
   padding: 0.5rem 1rem;
   margin: 1rem;
   width: 335px;
@@ -80,5 +80,6 @@ button:hover {
 }
 
 #name-display {
-  margin-top: 8.2rem;
+  margin: 2rem 2rem 0;
+  text-align: right;
 }
