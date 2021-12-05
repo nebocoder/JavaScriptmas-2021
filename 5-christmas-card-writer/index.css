@@ -15,7 +15,8 @@ body {
 }
 
 body {
-  background: var(--wine-red);
+  background-color: var(--wine-red);
+  background: url("img/christmas-dark.png");
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,7 +29,8 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 0.5rem;
-  background: var(--snow);
+  background-color: var(--snow);
+  background: url("img/blue-snow.png");
   font-size: 35px;
   text-align: center;
   padding: 0.5em;
@@ -46,18 +48,26 @@ p {
 }
 
 button {
+  font-weight: bold;
+  font-size: 0.9rem;
   border: none;
-  background-color: var(--gold);
+  background-color: var(--light-green);
+  color: var(--snow);
   padding: 0.5em 1em;
-  border-radius: 5px;
+  border-radius: 0.5rem;
+  border: 3px solid var(--gold);
   margin: 0 auto;
 }
 
 button:hover {
   cursor: pointer;
+  background-color: var(--dark-green);
 }
 
 #name {
+  font-weight: bold;
+  background-color: var(--snow);
+  background: url("img/blue-snow.png");
   padding: 0.5rem 1rem;
   margin: 1rem;
   width: 335px;
