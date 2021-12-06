@@ -3,6 +3,7 @@ const christmassifierBtn = document.getElementById("christmassifierBtn")
 const body = document.querySelector("body")
 const container = document.querySelector(".container")
 
+// Credit: https://www.freesoundslibrary.com/jingle-bells-track/
 const bells = new Audio("audio/jingle-bells.mp3")
 bells.volume = 0.5
 
