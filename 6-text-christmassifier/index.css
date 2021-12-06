@@ -47,11 +47,14 @@ button {
   padding: 1em 2em;
   border: none;
   font-size: 1.2rem;
-  background-color: var(--bright-red);
-  color: var(--snow);
   border-radius: 999px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#christmassifierBtn {
+  background-color: var(--bright-red);
+  color: var(--snow);
 }
 
 button:hover {
@@ -61,7 +64,7 @@ button:hover {
 
 .christmassified {
   font-family: "Mountains of Christmas", cursive;
-  color: #d42d2f;
+  color: var(--bright-red);
 }
 
 .christmassified span {
