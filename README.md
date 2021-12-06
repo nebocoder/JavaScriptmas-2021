@@ -6,3 +6,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 3. [Don't Scare Your Relatives](https://scrimba.com/scrim/co6d347108da525249385968d)
 4. [Shopping Checklist](https://scrimba.com/scrim/cofbf47fd9ca36b76d3fbf3f2)
 5. [Christmas Card Writer](https://scrimba.com/scrim/cobe54fc28dbb3a7c952c84b6)
+6. [Text Christmassifier](https://scrimba.com/scrim/code94cbfa114e8af7d81747b)
