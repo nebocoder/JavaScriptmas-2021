@@ -1,6 +1,7 @@
 const playBtn = document.getElementById("play-btn")
 const pauseBtn = document.getElementById("pause-btn")
 const stopBtn = document.getElementById("stop-btn")
+// Credit: https://www.freesoundslibrary.com/jingle-bells-track/
 const jingle = new Audio("jingle-bells.mp3")
 const volume = document.getElementById("volume")
 
