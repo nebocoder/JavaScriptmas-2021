@@ -65,18 +65,18 @@ button:hover {
 
 .pause-btn {
   background-color: var(--gold);
-  color: var(--wine-red);
+  color: var(--bright-red);
 }
 
 .stop-btn {
-  background-color: var(--wine-red);
+  background-color: var(--bright-red);
 }
 
 input[type="range"] {
   height: 37px;
   -webkit-appearance: none;
   margin: 25px 0;
-  width: 100%;
+  width: 50%;
   background: none;
 }
 input[type="range"]:focus {
