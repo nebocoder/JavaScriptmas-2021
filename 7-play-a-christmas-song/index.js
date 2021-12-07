@@ -1,8 +1,8 @@
 const playBtn = document.getElementById("play-btn")
 const pauseBtn = document.getElementById("pause-btn")
 const stopBtn = document.getElementById("stop-btn")
-
 const jingle = new Audio("jingle-bells.mp3")
+const volume = document.getElementById("volume")
 
 // Task:
 // - Add the functionality to play, pause and stop the jingling bells (bells.mp3).
@@ -23,3 +23,7 @@ stopBtn.addEventListener("click", () => {
 // Stretch goals:
 // - Add volume controls.
 // - Allow the user to select different sounds.
+
+volume.addEventListener("input", () => {
+  jingle.volume = volume.value / 100
+})
