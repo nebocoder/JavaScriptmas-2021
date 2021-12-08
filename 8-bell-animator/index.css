@@ -162,3 +162,19 @@ input[type="range"]:focus::-ms-fill-lower {
 input[type="range"]:focus::-ms-fill-upper {
   background: #d42d2f;
 }
+
+#bell.jingle {
+  display: inline-block;
+  animation: jingle 1s infinite ease-in-out alternate;
+  transform-origin: 50% 0;
+}
+
+@keyframes jingle {
+  25% {
+    transform: rotate(-20deg);
+  }
+
+  75% {
+    transform: rotate(20deg);
+  }
+}
