@@ -81,6 +81,7 @@ input[type="checkbox"] {
 }
 
 .santa-bg {
+  /* GIF Credits: https://giphy.com/gifs/bigblueboo-black-and-white-loop-christmas-TlK63EsOlwnqg7hiYec */
   background-image: url("https://64.media.tumblr.com/5647c98132bf257b29b9c7f18005fa40/tumblr_nh3syvSjOu1rpco88o1_500.gifv");
   background-position: center;
   background-size: cover;
