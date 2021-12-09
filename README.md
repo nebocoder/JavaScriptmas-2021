@@ -9,3 +9,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 6. [Text Christmassifier](https://scrimba.com/scrim/code94cbfa114e8af7d81747b)
 7. [Play a Christmas Song](https://scrimba.com/scrim/coeac4e9b991c6b4d0fcfd8af)
 8. [Bell Animator](https://scrimba.com/scrim/co4964c088b6ee99f5821571d)
+9. [Turn on the Decorations](https://scrimba.com/scrim/coaef42b58b9316d40c588921)
