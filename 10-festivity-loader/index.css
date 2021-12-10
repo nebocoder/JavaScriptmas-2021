@@ -14,28 +14,63 @@ body {
 }
 
 body {
+  font-family: "Mountains of Christmas", cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
-  color: var(--dark-green);
-  background-color: var(--snow);
+  color: var(--bright-red);
+  background-color: black;
+}
+
+#title {
+  animation: wobble 2s infinite ease-in-out;
+  text-shadow: 0 0 10px black, 0 0 40px var(--snow);
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  background: var(--wine-red);
-  color: var(--snow);
+  background: transparent;
   padding: 1em 2em;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 meter {
   height: 50px;
   width: 200px;
+}
+
+meter::-webkit-meter-bar {
+  background-color: var(--snow);
+}
+
+meter::-webkit-meter-optimum-value {
+  background-color: var(--bright-red);
+}
+
+@keyframes wobble {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  75% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
