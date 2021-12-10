@@ -27,9 +27,14 @@ body {
   background-color: black;
 }
 
+#title,
+#percentage {
+  text-shadow: 0 0 10px black, 0 0 40px var(--gold);
+}
+
 #title {
   animation: wobble 2s infinite ease-in-out;
-  text-shadow: 0 0 10px black, 0 0 40px var(--snow);
+  margin-bottom: 0.3rem;
 }
 
 .container {
