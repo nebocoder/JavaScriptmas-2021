@@ -25,6 +25,9 @@ body {
   text-align: center;
   color: var(--bright-red);
   background-color: black;
+  /* GIF Credit: https://ericaofanderson.tumblr.com/post/172415248097/i-care-too-much-you-can-get-this-gif-as-a-looping */
+  background: url("https://64.media.tumblr.com/e577bc7a98e4936d686ad18b937e0033/tumblr_p6erbsA74V1qeyvpto1_500.gifv")
+    center/cover no-repeat;
 }
 
 #title,
@@ -51,7 +54,7 @@ meter {
 }
 
 meter::-webkit-meter-bar {
-  background-color: var(--snow);
+  background-color: var(--gold);
 }
 
 meter::-webkit-meter-optimum-value {
