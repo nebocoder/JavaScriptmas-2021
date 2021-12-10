@@ -10,3 +10,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 7. [Play a Christmas Song](https://scrimba.com/scrim/coeac4e9b991c6b4d0fcfd8af)
 8. [Bell Animator](https://scrimba.com/scrim/co4964c088b6ee99f5821571d)
 9. [Turn on the Decorations](https://scrimba.com/scrim/coaef42b58b9316d40c588921)
+10. [Festivity Loader](https://scrimba.com/scrim/cob6241f89100627807b96554)
