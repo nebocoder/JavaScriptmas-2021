@@ -16,7 +16,7 @@ body {
 #title {
   font-size: 4rem;
   margin: 0;
-  text-shadow: 0 0 5px black, 0 0 30px var(--gold);
+  text-shadow: 0 0 5px var(--dark-green), 0 0 30px var(--gold);
   animation: glow 5s infinite ease-in-out;
 }
 
@@ -67,11 +67,12 @@ button {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  transition: background-color 0.4s;
+  transition: all 0.2s;
 }
 
 button:hover {
   background-color: var(--snow);
+  box-shadow: 0 0 10px var(--dark-green), 0 0 40px var(--gold);
 }
 
 .material-icons-outlined {
@@ -80,6 +81,6 @@ button:hover {
 
 @keyframes glow {
   50% {
-    text-shadow: 0 0 5px black, 0 0 70px var(--gold);
+    text-shadow: 0 0 5px var(--dark-green), 0 0 70px var(--gold);
   }
 }
