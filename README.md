@@ -1,4 +1,5 @@
 # JavaScriptmas 2021 🎄
+
 My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutions.
 
 1. [Countdown to Christmas](https://scrimba.com/scrim/co75849918fd7f129bb104eb7)
@@ -11,3 +12,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 8. [Bell Animator](https://scrimba.com/scrim/co4964c088b6ee99f5821571d)
 9. [Turn on the Decorations](https://scrimba.com/scrim/coaef42b58b9316d40c588921)
 10. [Festivity Loader](https://scrimba.com/scrim/cob6241f89100627807b96554)
+11. [Christmas Carousel](https://scrimba.com/scrim/cof2a46d7878df8a3313d941e)
