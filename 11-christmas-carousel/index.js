@@ -27,3 +27,34 @@ let imgNum = 0
 // Stretch goals:
 // - Add transitions for a smooth effect.
 // - Allow the user to zoom in and out of the images.
+
+function imgChange() {
+  img.src = imgs[imgNum].src
+  img.alt = imgs[imgNum].alt
+}
+
+function increment() {
+  if (imgNum >= imgs.length - 1) {
+    imgNum = 0
+  } else {
+    imgNum++
+  }
+}
+
+function decrement() {
+  if (imgNum <= 0) {
+    imgNum = imgs.length - 1
+  } else {
+    imgNum--
+  }
+}
+
+next.addEventListener("click", () => {
+  increment()
+  imgChange()
+})
+
+previous.addEventListener("click", () => {
+  decrement()
+  imgChange()
+})
