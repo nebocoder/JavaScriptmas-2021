@@ -1,5 +1,6 @@
 const input = document.getElementById("input")
-const btn = document.getElementById("btn")
+const btnAdd = document.getElementById("btn-add")
+const btnRemove = document.getElementById("btn-remove")
 let guestList = document.getElementById("guest-list")
 let guests = [
   "Partner",
@@ -30,5 +31,10 @@ function addGuest() {
   input.value = ""
 }
 
+function removeGuest() {
+  guestList.lastChild.remove()
+}
+
 renderGuestList()
-btn.addEventListener("click", addGuest)
+btnAdd.addEventListener("click", addGuest)
+btnRemove.addEventListener("click", removeGuest)

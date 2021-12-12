@@ -74,12 +74,18 @@ li {
 }
 
 button {
-  background: var(--dark-green);
   color: var(--snow);
 }
 
-button:hover,
-button:focus {
+#btn-add {
+  background: var(--dark-green);
+}
+
+#btn-remove {
+  background: var(--bright-red);
+}
+
+button:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
