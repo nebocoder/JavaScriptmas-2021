@@ -16,3 +16,19 @@ let guests = [
 // Stretch goals:
 // - Add a button to remove the most recently added guests.
 // - What about if you want to remove the evil relative?
+
+function renderGuestList() {
+  let list = ""
+  guests.forEach((guest) => {
+    list += `<li>${guest}</li>`
+  })
+  guestList.innerHTML += list
+}
+
+function addGuest() {
+  guestList.innerHTML += `<li>${input.value}</li>`
+  input.value = ""
+}
+
+renderGuestList()
+btn.addEventListener("click", addGuest)
