@@ -14,3 +14,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 10. [Festivity Loader](https://scrimba.com/scrim/cob6241f89100627807b96554)
 11. [Christmas Carousel](https://scrimba.com/scrim/cof2a46d7878df8a3313d941e)
 12. [Christmas Guest List](https://scrimba.com/scrim/co6054fbfa4b8b9b3dfa22473)
+13. [Christmas Dinner Calculator](https://scrimba.com/scrim/co9d4464fa1e6bb1fe38c7027)
