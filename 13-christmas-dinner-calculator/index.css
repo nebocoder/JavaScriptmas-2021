@@ -14,13 +14,15 @@ body {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 100vh;
-  color: var(--snow);
-  background-color: var(--wine-red);
+  background-color: var(--snow);
+  background: url("img/christmas-colour.png");
+  color: var(--wine-red);
 }
 
 h1 {
@@ -32,10 +34,16 @@ form input,
 form button,
 .result {
   box-sizing: border-box;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-radius: 5px;
   border: none;
+}
+
+form input,
+form button,
+.container,
+.result {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 40px -1px,
+    rgba(0, 0, 0, 0.4) 0px 2px 5px -1px;
 }
 
 form {
@@ -52,6 +60,7 @@ form * {
 
 label {
   padding: 0;
+  text-shadow: 0 0 5px var(--snow);
 }
 
 input {
@@ -86,8 +95,9 @@ input {
 }
 
 button {
-  color: var(--dark-green);
-  background: var(--gold);
+  font-weight: 700;
+  color: var(--snow);
+  background: var(--light-green);
   margin-bottom: 20px;
 }
 
@@ -95,4 +105,14 @@ button:hover,
 button:focus {
   transform: scale(1.05);
   cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 255, 150, 0.05);
+  border-radius: 2rem;
+  padding: 2rem 1rem;
 }
