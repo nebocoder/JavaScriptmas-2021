@@ -13,14 +13,9 @@
     >
     <form>
       <label for="name">How many guests are coming?</label>
-      <input id="num-input" type="number" id="guests" name="guests" />
+      <input type="number" id="guests-input" name="guests" min="0" />
       <div class="veggie">
-        <input
-          type="checkbox"
-          id="vegetarian-input"
-          name="vegetarian"
-          checked
-        />
+        <input type="checkbox" id="vegetarian-input" name="vegetarian" />
         <label for="name">Vegetarian?</label>
       </div>
       <button id="btn" type="button">Calculate</button>
