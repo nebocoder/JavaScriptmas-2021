@@ -14,6 +14,7 @@ body {
 }
 
 body {
+  font-family: "Mountains of Christmas", cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +23,7 @@ body {
   text-align: center;
   color: var(--dark-green);
   background-color: var(--snow);
+  background: url("img/trees.png");
 }
 
 .elf-hangout-zone {
@@ -38,15 +40,18 @@ body {
   min-height: 200px;
   max-width: 5ch;
   overflow-y: scroll;
-  background: var(--wine-red);
+  background-color: var(--wine-red);
+  background: url("img/christmas-dark.png");
   padding: 1em 2em;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px -1px,
+    rgba(0, 0, 0, 0.3) 0px 2px 19px -1px;
 }
 
-h1 {
+#title {
+  font-size: 3rem;
   margin: 0;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px;
 }
 
 .elf {
@@ -64,8 +69,8 @@ button {
   font-size: 1.2rem;
   color: var(--snow);
   border-radius: 999px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px -1px,
+    rgba(0, 0, 0, 0.3) 0px 2px 19px -1px;
 }
 
 button:hover {
@@ -79,6 +84,7 @@ button:hover {
 
 #teaBtn {
   background-color: var(--bright-red);
+  margin: 0 0.5rem;
 }
 
 #deerBtn {
