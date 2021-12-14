@@ -32,7 +32,8 @@ body {
   justify-content: center;
   align-items: center;
   margin: 2em;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   min-width: 200px;
   min-height: 200px;
   max-width: 5ch;
@@ -49,7 +50,7 @@ h1 {
 }
 
 .elf {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 button {
