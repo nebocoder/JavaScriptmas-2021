@@ -8,6 +8,10 @@ const greetingsArr = [
     greeting: "Merry Christmas!",
   },
   {
+    language: "Serbian",
+    greeting: "Xристос се роди!",
+  },
+  {
     language: "Spanish",
     greeting: "Feliz Navidad!",
   },
@@ -24,6 +28,11 @@ const greetingsArr = [
 function translate() {
   // Task:
   // - Write a function to display the correct greeting when a language is selected.
+  greetingsArr.forEach((option) => {
+    if (option.language === languageSelector.value) {
+      greetingDisplay.textContent = option.greeting
+    }
+  })
 }
 
 // Stretch goals:
