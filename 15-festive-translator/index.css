@@ -14,6 +14,7 @@ body {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +23,7 @@ body {
   text-align: center;
   color: var(--dark-green);
   background-color: var(--snow);
+  background: url("img/christmas-colour.png");
 }
 
 .container {
@@ -33,32 +35,47 @@ body {
   min-width: 200px;
   min-height: 200px;
   max-width: 5ch;
-  background: var(--wine-red);
   padding: 1em 2em;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-h1 {
+#title {
   margin: 0;
+  padding: 1rem 1.5rem;
   color: var(--dark-green);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-shadow: 0 0 20px rgba(75, 90, 75, 0.4);
 }
 
 .greeting-text {
-  color: var(--snow);
-  font-size: 30px;
+  color: var(--dark-green);
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(75, 90, 75, 0.4);
 }
 
 select {
   height: 70px;
   width: 260px;
   border: 3px solid var(--dark-green);
-  border-radius: 5px;
-  padding: 0.2em 0.3em;
+  padding: 0.5em 0.4em;
   font-size: 30px;
   color: var(--dark-green);
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-shadow: 0 0 20px rgba(75, 90, 75, 0.4);
 }
