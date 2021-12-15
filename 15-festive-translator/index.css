@@ -1,0 +1,85 @@
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --gold: #fac57d;
+  --snow: #f0f4f7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: var(--dark-green);
+  background-color: var(--snow);
+  background: url("img/christmas-colour.png");
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  flex-direction: column;
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 5ch;
+  padding: 1em 2em;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#title {
+  margin: 0;
+  padding: 1rem 1.5rem;
+  color: var(--dark-green);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-shadow: 0 0 20px rgba(75, 90, 75, 0.4);
+}
+
+.greeting-text {
+  color: var(--dark-green);
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(75, 90, 75, 0.4);
+}
+
+select {
+  height: 70px;
+  width: 260px;
+  border: 3px solid var(--dark-green);
+  padding: 0.5em 0.4em;
+  font-size: 30px;
+  color: var(--dark-green);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-shadow: 0 0 20px rgba(75, 90, 75, 0.4);
+}
+
+select option {
+  background-color: var(--snow);
+}
