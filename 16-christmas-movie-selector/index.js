@@ -34,3 +34,16 @@ const moviesArr = [
 // Stretch goals:
 // - Have the function run on each change of the <select> tags.
 // - Add more movies/complexity - for example black and white vs color, preferred actors, etc.
+
+btn.addEventListener("click", moviePick)
+
+function moviePick() {
+  moviesArr.forEach((movie) => {
+    if (
+      movie.age === ageSelector.value &&
+      movie.genre === genreSelector.value
+    ) {
+      suggestedMovie.textContent = movie.name
+    }
+  })
+}
