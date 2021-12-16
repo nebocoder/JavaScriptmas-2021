@@ -17,3 +17,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 13. [Christmas Dinner Calculator](https://scrimba.com/scrim/co9d4464fa1e6bb1fe38c7027)
 14. [Lonely Elf](https://scrimba.com/scrim/co8a44409b67408e61c13b049)
 15. [Festive Translator](https://scrimba.com/scrim/coc0b49afab75edfbf7c953e4)
+16. [Christmas Movie Selector](https://scrimba.com/scrim/co60f49309b597b3c888c98e6)
