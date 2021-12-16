@@ -36,6 +36,8 @@ const moviesArr = [
 // - Add more movies/complexity - for example black and white vs color, preferred actors, etc.
 
 btn.addEventListener("click", moviePick)
+ageSelector.addEventListener("change", moviePick)
+genreSelector.addEventListener("change", moviePick)
 
 function moviePick() {
   moviesArr.forEach((movie) => {
