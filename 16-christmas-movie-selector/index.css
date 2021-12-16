@@ -1,0 +1,158 @@
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --gold: #fac57d;
+  --snow: #69a3cc;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: var(--dark-green);
+  background: url("img/christmas-colour.png");
+  background-color: var(--snow);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.movie-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  flex-direction: column;
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 5ch;
+  padding: 1em 2em;
+}
+
+#title {
+  margin-bottom: 1rem;
+  color: var(--dark-green);
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  text-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+.suggested-movie {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+.beat-anim {
+  animation: beat 2s ease 0s 1 normal forwards;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+form * {
+  font-size: 30px;
+  margin: 0.25em;
+}
+
+select {
+  height: 70px;
+  width: 260px;
+  padding: 0.2em 0.3em;
+  color: var(--dark-green);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  text-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+select:focus {
+  outline: none;
+}
+
+select option {
+  background: var(--snow);
+  text-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background: rgba(35, 247, 105, 0.303);
+  box-shadow: 0 8px 32px 0 rgba(35, 247, 105, 0.303);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  text-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  transition: transform 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+@keyframes beat {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
