@@ -48,4 +48,9 @@ function moviePick() {
       suggestedMovie.textContent = movie.name
     }
   })
+
+  suggestedMovie.classList.toggle("beat-anim")
+  setTimeout(() => {
+    suggestedMovie.classList.toggle("beat-anim")
+  }, 1000)
 }
