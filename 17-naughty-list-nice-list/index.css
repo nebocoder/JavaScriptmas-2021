@@ -14,18 +14,20 @@ body {
 }
 
 body {
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
-  color: var(--dark-green);
-  background-color: var(--snow);
+  color: var(--snow);
+  background-color: var(--dark-green);
+  background: url("img/christmas-dark.png");
 }
 
 h1 {
-  color: var(--dark-green);
+  color: var(--snow);
 }
 
 .container,
