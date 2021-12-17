@@ -1,7 +1,7 @@
 const niceList = document.getElementById("nice-list")
 const naughtyList = document.getElementById("naughty-list")
 const btn = document.getElementById("btn")
-// btn.addEventListener("click", sort)
+btn.addEventListener("click", sort)
 
 const sorteesArr = [
   {
@@ -28,3 +28,19 @@ const sorteesArr = [
 // Stretch goals:
 // - Add the option to add new names to the sorteesArr.
 // - Make it possible to switch people to the other list.
+
+function sort() {
+  let nice = ""
+  let naughty = ""
+
+  sorteesArr.forEach((item) => {
+    if (item.hasBeenGood) {
+      nice += `<li>${item.name}</li>`
+    } else {
+      naughty += `<li>${item.name}</li>`
+    }
+  })
+
+  niceList.innerHTML = nice
+  naughtyList.innerHTML = naughty
+}
