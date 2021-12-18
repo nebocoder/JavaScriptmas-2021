@@ -59,3 +59,19 @@ input[type="checkbox"]:checked + label.strikethrough span {
 Stretch goals: 
 - Add a different random check for each item.
 - Use JavaScript to match the custom check to the item listed, e.g. socks would have socks as the checkmark. */
+
+input[type="checkbox"]:checked {
+  display: none;
+}
+
+#Candles:checked + label::before {
+  content: "🕯";
+}
+
+#Decorations:checked + label::before {
+  content: "🌟";
+}
+
+#Chocolate:checked + label::before {
+  content: "🍫";
+}
