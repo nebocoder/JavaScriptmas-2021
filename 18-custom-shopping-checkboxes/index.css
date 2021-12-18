@@ -14,19 +14,28 @@ body {
 }
 
 body {
+  font-family: "Mountains of Christmas", cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
-  color: var(--snow);
+  color: var(--bright-red);
   background-color: var(--bright-red);
+  background: url("img/christmas-dark.png");
+}
+
+#title {
+  font-size: 2.5rem;
 }
 
 .checklist {
+  font-family: sans-serif;
+  font-size: 1.5rem;
   position: relative;
-  background: var(--snow);
+  background-color: var(--snow);
+  background: url("img/trees.png");
   color: var(--dark-green);
   display: flex;
   justify-content: center;
@@ -36,7 +45,7 @@ body {
   min-height: 200px;
   max-width: 5ch;
   padding: 1em 2em;
-  border-radius: 5px;
+  border-radius: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
@@ -50,7 +59,6 @@ body {
 
 input[type="checkbox"]:checked + label.strikethrough span {
   text-decoration: line-through;
-  font-weight: normal;
 }
 
 /* Task:
@@ -60,18 +68,25 @@ Stretch goals:
 - Add a different random check for each item.
 - Use JavaScript to match the custom check to the item listed, e.g. socks would have socks as the checkmark. */
 
+input[type="checkbox"] {
+  transform: scale(1.6);
+}
+
 input[type="checkbox"]:checked {
   display: none;
 }
 
 #Candles:checked + label::before {
   content: "🕯";
+  margin: 0 0.5rem 0 0;
 }
 
 #Decorations:checked + label::before {
   content: "🌟";
+  margin: 0 0.5rem 0 0;
 }
 
 #Chocolate:checked + label::before {
   content: "🍫";
+  margin: 0 0.5rem 0 0;
 }
