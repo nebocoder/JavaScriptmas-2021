@@ -1,0 +1,64 @@
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --gold: #fac57d;
+  --snow: #f0f4f7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: var(--dark-green);
+  background-color: var(--light-green);
+}
+
+img {
+  width: 90%;
+  height: 270px;
+  width: 310px;
+  border-radius: 40px;
+}
+
+button {
+  margin: 2em;
+  padding: 1em 2em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--dark-green);
+  border: none;
+  border-radius: 50px;
+  background: #77a047;
+  box-shadow: 20px 20px 60px #65883c, -20px -20px 60px #89b852;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+  border-radius: 50px;
+  background: #77a047;
+  box-shadow: inset 20px 20px 60px #65883c, inset -20px -20px 60px #89b852;
+}
+
+#foodHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  height: 300px;
+  border-radius: 50px;
+  background: #77a047;
+  box-shadow: inset 20px 20px 60px #65883c, inset -20px -20px 60px #89b852;
+}
