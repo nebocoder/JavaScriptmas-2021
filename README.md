@@ -20,3 +20,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 16. [Christmas Movie Selector](https://scrimba.com/scrim/co60f49309b597b3c888c98e6)
 17. [Naughty List, Nice List](https://scrimba.com/scrim/cob614545a58c94423cbe046b)
 18. [Custom Shopping Checkboxes](https://scrimba.com/scrim/coba64c61b43e04d063a793b9)
+19. [Dessert Decider](https://scrimba.com/scrim/co8184adebedc3b5b8631ea73)
