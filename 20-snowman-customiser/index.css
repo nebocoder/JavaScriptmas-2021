@@ -11,12 +11,15 @@ body {
 }
 
 body {
-  --gold: #fac57d;
+  font-family: "Poppins", sans-serif;
+  --blue: #4379a5;
   --snow: #f0f4f7;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: var(--gold);
+  background: url("img/christmas-colour.png");
+  color: var(--snow);
+  background-color: var(--blue);
 }
 
 .controls {
@@ -50,6 +53,7 @@ input {
   height: 10em;
   width: 10em;
   border-radius: 50%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .snowman-body {
@@ -62,6 +66,8 @@ input {
   height: 14em;
   width: 14em;
   border-radius: 50%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  z-index: -1;
 }
 
 .button {
@@ -104,4 +110,19 @@ input {
   background: darkgray;
   border-radius: 50%;
   margin: 2em 4em;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 115px;
+  margin: 2rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
