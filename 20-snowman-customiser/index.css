@@ -76,7 +76,7 @@ input {
   border-top-right-radius: 75px;
   height: 1em;
   width: 1em;
-  background: var(--color);
+  background-color: var(--color);
   margin: 2.2em 2em 0;
 }
 
