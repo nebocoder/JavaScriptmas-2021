@@ -1,8 +1,6 @@
 const speedometer = document.getElementById("speedometer")
 const select = document.getElementById("select")
 const time = document.getElementById("time")
-let currentLocation = ""
-let timeTaken = 0
 
 let destination = [
   {
@@ -32,14 +30,19 @@ let destination = [
 ]
 
 function calculateSpeed() {
-  let speed = 0
-  currentLocation = select.value
-
   // Task:
   // - Retrieve distance from previous destination from array of objects.
   // - Calculate speed and round speed to an integer (whole number).
   // - Display speed in speedometer paragraph.
+  const location = destination.findIndex((place) => place.name === select.value)
+
+  speedometer.textContent = Math.round(
+    destination[location].distanceFromPrevDestination / time.value
+  )
 }
+
+select.addEventListener("change", calculateSpeed)
+time.addEventListener("change", calculateSpeed)
 
 // Stretch goals:
 // - Calculate average overall speed.
