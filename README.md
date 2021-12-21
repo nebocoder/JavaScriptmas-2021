@@ -22,3 +22,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 18. [Custom Shopping Checkboxes](https://scrimba.com/scrim/coba64c61b43e04d063a793b9)
 19. [Dessert Decider](https://scrimba.com/scrim/co8184adebedc3b5b8631ea73)
 20. [Snowman Customiser](https://scrimba.com/scrim/co36145fdaff1aa19a0297176)
+21. [Raindeer Speedometer](https://scrimba.com/scrim/co67c4274b5b89af069e104af)
