@@ -36,9 +36,9 @@ function calculateSpeed() {
   // - Display speed in speedometer paragraph.
   const location = destination.findIndex((place) => place.name === select.value)
 
-  speedometer.textContent = Math.round(
+  speedometer.textContent = `${Math.round(
     destination[location].distanceFromPrevDestination / time.value
-  )
+  )} km/h`
 }
 
 select.addEventListener("change", calculateSpeed)
