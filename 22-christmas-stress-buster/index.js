@@ -8,7 +8,7 @@ const timer = document.getElementById("timer")
 // - Show a relaxing image in the background while the timer is running.
 // - Play relaxing music.
 
-const startingMinutes = 0.1
+let startingMinutes = 15
 let time = startingMinutes * 60
 
 function updateTimer() {
@@ -26,6 +26,7 @@ function updateTimer() {
 
     if (time < 0) {
       clearInterval(countdown)
+      startingMinutes = 15
       timer.textContent = "You got this!"
     }
   }, 1000)
