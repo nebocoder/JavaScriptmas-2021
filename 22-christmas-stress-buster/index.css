@@ -1,0 +1,79 @@
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --gold: #fac57d;
+  --snow: #f0f4f7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: var(--dark-green);
+  background-color: var(--snow);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--gold);
+  color: var(--dark-green);
+  padding: 2em;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.affirmation {
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
+}
+
+.timer {
+  font-family: "Roboto Mono", monospace;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0.5em;
+  padding: 0.5rem 2.4rem;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+}
+
+button {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border: none;
+  color: var(--dark-green);
+  padding: 0.75em 1em;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  color: dimgray;
+}
