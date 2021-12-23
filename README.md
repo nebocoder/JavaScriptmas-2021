@@ -24,3 +24,4 @@ My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutio
 20. [Snowman Customiser](https://scrimba.com/scrim/co36145fdaff1aa19a0297176)
 21. [Raindeer Speedometer](https://scrimba.com/scrim/co67c4274b5b89af069e104af)
 22. [Christmas Stress Buster](https://scrimba.com/scrim/co27345a6bf5a3c450121fdac)
+23. [Customisable Santa Sign](https://scrimba.com/scrim/co75542318032b9b1bce64119)
