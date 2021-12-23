@@ -14,33 +14,39 @@ body {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--dark-green);
   background-color: var(--light-green);
+  background: url("img/bg.jpg") center/cover no-repeat;
   height: 100vh;
 }
 
 .sign,
 .text-input {
-  color: var(--dark-green);
   background-color: var(--snow);
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  backdrop-filter: blur(7px) saturate(180%);
+  -webkit-backdrop-filter: blur(7px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.45);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
 .sign {
-  border: 5px solid var(--wine-red);
+  text-align: center;
   padding: 1em;
   min-width: 450px;
   font-size: 45px;
+  font-weight: 700;
 }
 
 label {
+  color: var(--snow);
   font-size: 2rem;
-  color: var(--dark-green);
+  margin-bottom: 0.75rem;
 }
 
 .text-input {
