@@ -5,3 +5,10 @@
 // - Add a min and max length to the message.
 // - Add interchangeable emojis.
 // - Allow the user to customize the colors and other styling elements, too.
+
+const signText = document.getElementById("sign-text")
+const textInput = document.getElementById("text-input")
+
+textInput.addEventListener("input", () => {
+  signText.textContent = textInput.value
+})
