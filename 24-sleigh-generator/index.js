@@ -8,3 +8,16 @@ const btn = document.getElementById("btn")
 // Stretch goals:
 // - Add a cheering sound when the sleigh takes off.
 // - Add a countdown to the launch time.
+
+btn.addEventListener("click", () => {
+  btn.disabled = true
+  crew.classList.toggle("jello")
+  setTimeout(() => {
+    crew.classList.toggle("jello")
+    crew.classList.toggle("bounce-out-top")
+  }, 2000)
+  setTimeout(() => {
+    crew.classList.toggle("bounce-out-top")
+    btn.disabled = false
+  }, 5000)
+})
