@@ -14,14 +14,28 @@ body {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
-  color: var(--dark-green);
-  background-color: var(--snow);
+  color: var(--snow);
+  background-color: var(--dark-green);
+  background: url("img/christmas-dark.png");
+}
+
+#title {
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem 1.75rem;
+  background: rgba(255, 255, 155, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .launchpad {
@@ -32,11 +46,13 @@ body {
   flex-direction: column;
   min-width: 100px;
   min-height: 100px;
-  background: var(--gold);
-  padding: 1em 2em;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 3em 4em;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .crew {
@@ -44,14 +60,19 @@ body {
 }
 
 button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   padding: 1em 2em;
   border: none;
   font-size: 1.2rem;
   background-color: var(--dark-green);
   color: var(--snow);
-  border-radius: 999px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgba(155, 255, 155, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 button:hover {
