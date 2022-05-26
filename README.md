@@ -1,6 +1,6 @@
 # JavaScriptmas 2021 🎄
 
-### [Playlist with all solutions](https://scrimba.com/playlist/pwv3ZHd)
+### [Scrim playlist with all solutions](https://scrimba.com/playlist/pwv3ZHd)
 
 My [Scrimba JavaScriptmas](https://scrimba.com/learn/javascriptmas2021/) solutions:
 
